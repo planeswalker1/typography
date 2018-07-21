@@ -2,7 +2,7 @@
   class: serif
   id: serif
   title: Serif
-  description: a serif is a small line attached to the end of a stroke in a letter or symbol. A typeface with serifs is called a serif typeface.
+  description: a serif is a small line attached to the end of a stroke in a letter or symbol. A font with serifs is called a serif typeface.
   name: Playfair Display
   principal-design: Claus Eggers Sørensen
 
@@ -10,7 +10,7 @@
   class: sans-serif
   id: sans-serif
   title: Sans-Serif
-  description: A typeface without serifs is called sans-serif or sans serif.
+  description: A font without serifs is called sans-serif or sans serif.
   name: Lato
   principal-design: Łukasz Dziedzic
 

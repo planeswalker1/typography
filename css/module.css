@@ -1,0 +1,40 @@
+.color {
+  color: #551A8B;
+}
+
+.color--big {
+  color: #551A8B;
+  font-size: 3em;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.sans-serif {
+  font-family: 'Lato', sans-serif;
+}
+
+.monospace {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.serif__example,
+.sans-serif__example,
+.monospace__example {
+  background-color: #fdfdfd;
+}
+
+.serif__favorite,
+.sans-serif__favorite,
+.monospace__favorite {
+  padding-left: 20px;
+}
+
+.block__p {
+  margin: 0;
+}
