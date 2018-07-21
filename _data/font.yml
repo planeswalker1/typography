@@ -1,0 +1,23 @@
+-
+  class: serif
+  id: serif
+  title: Serif
+  description: a serif is a small line attached to the end of a stroke in a letter or symbol. A typeface with serifs is called a serif typeface.
+  name: Playfair Display
+  principal-design: Claus Eggers Sørensen
+
+-
+  class: sans-serif
+  id: sans-serif
+  title: Sans-Serif
+  description: A typeface without serifs is called sans-serif or sans serif.
+  name: Lato
+  principal-design: Łukasz Dziedzic
+
+-
+  class: monospace
+  id: monospace
+  title: Monospace
+  description: A monospaced font is a font whose letters and characters each occupy the same amount of horizontal space.
+  name: Ubuntu Mono
+  principal-design: Dalton Maag

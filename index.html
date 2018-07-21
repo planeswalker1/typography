@@ -2,3 +2,64 @@
 layout: default
 title: Home
 ---
+<header>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a class="color" href="#intro">favorite fonts</a></li>
+      <li class="nav__item"><a href="#serif">serif</a></li>
+      <li class="nav__item"><a href="#sans-serif">sans-serif</a></li>
+      <li class="nav__item"><a href="#monospace">monospace</a></li>
+      <li class="nav__item"><a href="https://github.com/planeswalker1">Github</a></li>
+    </ul>
+  </nav>
+  <div class="intro">
+    <h1 class="intro__heading">Typography</h1>
+    <p class="intro__p">
+       Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed. Below are a few of my favorite fonts.
+    </p>
+  </div>
+</header>
+<main>
+  {% for font in site.data.font %}
+    <div id="{{font.id}}" class="{{ font.class }}">
+      <div class="{{ font.class }}__description">
+        <h2>{{ font.title }}</h2>
+        <p>
+          {{ font.description }}
+        </p>
+      </div>
+
+      <div class="{{ font.class }}__example">
+        <div class="{{ font.class }}__favorite">
+          <h2>{{ font.name }}</h2>
+          <p>By {{ font.principal-design }}</p>
+        </div>
+
+        <div class="{{ font.class }}__text">
+          <div class="text__block">
+            <p class="block__p">
+              <strong>Bold</strong>
+            </p>
+            <p class="block__p">
+              <strong class="color--big">ABC</strong>
+            </p>
+          </div>
+
+          <div class="text__block">
+            <p class="block__p">Regular</p>
+            <p class="block__p color--big">ABC</p>
+          </div>
+
+          <div class="text__block">
+            <p class="block__p">
+              <em>Italic</em>
+            </p>
+            <p class="block__p">
+              <em class="color--big">ABC</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</main>
