@@ -1,6 +1,6 @@
 # _typography_
 
-#### _A website about 3 types of fonts, 07.23.2018_
+#### _A website about 3 types of fonts, 08.20.2018_
 
 #### By _**planeswalker1**_
 
